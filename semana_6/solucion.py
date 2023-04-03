@@ -15,7 +15,8 @@ for resultado in resultados:
     else:
         vencibles.append(valores[index_player_1 + 1])
     if index_player_1 < 2:
-        index_player_1 += 6
+        index_player_1 += 5
+    print(index_player_1)
     vencibles.append(valores[index_player_1 - 2])
     if player_2 in vencibles:
         pts_player_1 += 1
